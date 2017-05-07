@@ -1,0 +1,22 @@
+{
+  "name": "full-stack-with-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec npm-run ts-node server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/express": "^4.0.35",
+    "@types/knex": "0.0.50",
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "express-promise-router": "^1.1.1",
+    "knex": "^0.13.0",
+    "mysql": "^2.13.0"
+  }
+}
